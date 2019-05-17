@@ -1,0 +1,37 @@
+body{margin:0px; padding:0px; font:13px/28px microsoft yahei, Verdana, Geneva, sans-serif;background:url(../images/main_bg.jpg)}
+*{ margin:0px; padding:0px}
+li{ list-style:none}
+.clear{ clear:both}
+a { color: #6d1f75;text-decoration:none}
+/*头部样式start*/
+.head{  z-index: 10000;background:url(../images/head_bg.png) repeat-x;position:fixed;clear:both;width:100%;}
+.head_area{ width:1000px; margin:0 auto}
+
+/*head导航*/
+.head_nav{float:left}
+.head_nav li{background:url(../images/nav_line.png) no-repeat; height:49px; float:left;  padding:0px 10px;}
+.head_nav li a{line-height:46px;color:#666;}
+.head_nav li a:hover{color:#6d1f75;}
+.head_nav li img{ vertical-align:middle; padding-right:5px}
+
+/*head_logo*/
+.head_logo{ float:left; padding-left:200px; padding-top:15px}
+
+/*head_按钮*/
+.head_user{ float:right; margin-top:5px}
+.head_user span{ float:left;}
+.head_user .type1{ background:url(../images/user_btn1.png); width:93px; height:37px; color:#6d1f75; line-height:37px; font-weight:bold; text-align:center}
+.head_user .type1 a{color:#6d1f75; line-height:33px; font-weight:bold; text-align:center}
+.head_user .type2{ background:url(../images/user_btn2.png); width:93px; height:37px; color:#ffffff; line-height:37px;font-weight:bold; text-align:center}
+.head_user .type2 a{color:#fff; line-height:33px;font-weight:bold;  text-align:center}
+.head_user .type3{padding-top:8px;padding-right:5px}
+.top_main{width:1000px; margin:0 auto;height:70px;position:relative;top:50px;z-index:-1;}
+.top_logo{ float:left;}
+.top_instr{ float:left; padding-left:10px;color:black; margin-left:10px;font-size:12px; border-left:1px solid black }
+.top_tel{ float:right}
+/*头部样式end*/
+
+/*底部*/
+.foot{ background:url(../images/foot_bj.jpg); height:129px; margin-top:20px}
+.foot_area{ width:1000px; margin:0 auto; text-align:center; padding-top:15px; }
+.foot_area a{color:#6d1f75;}

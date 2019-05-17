@@ -1,0 +1,298 @@
+﻿@charset "utf-8";
+/* CSS Document */
+/*查看简历*/
+
+.resume_con{ width:1000px; margin:0 auto}
+.status{ border:1px solid #ddd; background:#fff; padding:20px; margin-bottom:20px}
+.pingyu{ background:url(../images/left_line.png) left center no-repeat; padding-left:20px; color:#19A8B6; margin-left:20px}
+.all_resume{ background:#fff; padding:20px; }
+.all_resume img{ border:1px solid #ccc}
+.person_name{ font-size:18px;}
+.all_resume p{ line-height:22px;font-family:Geneva, Arial, Helvetica, sans-serif; font-size:12px; color:#666}
+.resume_title{ background:url(../images/resume_titBj.png); height:39px; line-height:39px; padding-left:30px; font-size:14px; font-weight:bold; color:#666}
+.resume_title .btn{ background:url(../images/btn_Myoperate.png) no-repeat;cursor: pointer; width:64px; height:27px; text-align:center; color:#19A8B6; float:right; font-size:12px; font-weight:lighter; font-family:Geneva, Arial, Helvetica, sans-serif; margin-right:15px; margin-top:5px; line-height:27px} 
+.resume_title .btn:hover{ color: #6d1f75;} 
+
+/*我的简历*/
+.user_operate{ width:996px; margin:0 auto; background:#fff; border:1px solid #ccc; border-bottom:2px solid #19A8B6}
+.user_operate li{ float:left; background:url(../images/user_line.png) no-repeat right center; height:41px; line-height:41px; }
+.user_operate li a{ font-size:14px; font-family:Geneva, Arial, Helvetica, sans-serif; color:#19A8B6;line-height:41px; display:block;padding-left:15px; padding-right:15px}
+.user_operate li a:hover{ background:#19A8B6;color:#fff;line-height:41px; display:block}
+.user_operate li a.active{ background:#19A8B6;color:#fff;line-height:41px; display:block}
+.user_operateAply{ float:right; }
+.user_operateAply a{font-size:14px; text-decoration:underline; color:#19A8B6;line-height:41px; padding-right:10px; font-family:Geneva, Arial, Helvetica, sans-serif}
+.rush_time{ text-align:right; color:#666; font-family:Geneva, Arial, Helvetica, sans-serif; font-size:12px}
+.resume_main{}
+.resume_left{width:700px;float:left; background:#fff;border-right:1px solid #ccc;}
+.resume_right{width:289px;float:left; background:#f8f8f8; padding:30px 10px 30px 0px;}
+.he{ height:8px; overflow:hidden}
+
+.uploade{background-color: #f8f8f8;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    float: left;
+    margin: 0 0 0 60px;
+    padding: 42px 50px;}
+.uploade img{}
+.uploade_btn{color:#6d1f75;background:url(../images/btn_Myoperate.png) no-repeat; width:64px; height:27px;display:inline-block; line-height:27px}
+.uploade_btn:hover{color:black;}
+.table_style{float:left;}
+.table_style table tr th{color:#999;}
+.table_style table tr td{padding-left:5px;}
+/*按扭样式*/
+.tn-button-preview{background: url(../images/it-button.png) no-repeat -381px -217px;
+	width:145px;height:43px;
+font-size: 14px;
+line-height:43px;	
+	display:inline-block;
+	color:white;
+	border:none;text-align:center}
+.tn-button-preview:hover{background: url(../images/it-button.png) no-repeat -381px -217px;
+color:#cefbff;
+}
+.tn-button-text {
+line-height: 40px;
+font-size: 14px;
+padding-left: 35px;
+}
+ .tn-button-save{
+ 	background: url(../images/it-button.png) no-repeat -381px -276px;width:145px;height:43px;
+	font-size: 14px;
+	line-height:43px;
+	display:inline-block;
+	color:#09a0ad;
+	border:none;text-align:center;margin-top:10px;
+	
+}
+.tn-button-save:hover{background: url(../images/it-button.png) no-repeat -381px -276px;
+color:#06828d;}
+
+.it-person .tn-tabs .tn-tabs-nav li.it-to-apply .tn-icon {
+    float: left;
+    margin-top: 7px;
+}
+/*返回小图标*/
+.tn-icon-back{
+    background: url(../images/it-icon.png) no-repeat right -43px;
+	float: left;
+    margin: 17px 8px 0px 0px;
+	width:16px;height:16px;
+	display:inline-block;
+	
+}
+/*进度条*/
+.it-table-grid ul {
+padding-left: 7px;
+}
+.it-table-grid .it-table-grid-header {
+color: #999;
+}
+.it-table-grid li {
+line-height: 20px;
+overflow: hidden;
+line-height: 35px;
+height: 35px;
+color: rgb(102, 102, 102);
+}
+.tn-border-gray {
+border-bottom: solid #ddd 1px;
+}
+.tn-name {
+width: 24%;
+}
+.tn-date, .tn-fieldofstudy {
+width: 18%;
+}
+.tn-degree {
+width: 10%;
+}
+.tn-department, .tn-post, .tn-listensay, .tn-readwrite {
+width: 15%;
+}
+.it-table-grid li p {
+background: url("../images/it-line06.png") no-repeat right bottom;
+padding: 0 8px;
+float: left;
+}
+.it-table-grid {
+padding: 10px 20px 30px;
+}
+
+.tn-icon {
+width: 16px;
+height: 16px;
+background-image: url("../images/tn-icon-small.png");
+}
+.tn-icon{width:16px;height:16px;background-image:url("../images/it-icon.png")}
+a.tn-icon:hover{background-image:url("../images/tn-icon-small.png")}
+.tn-icon {
+background-image: url("../images/it-icon.png");
+}
+.it-icon-modify {
+background-position: -190px -18px;
+}
+.tn-action .tn-icon, .tn-explain-icon .tn-icon {
+position: absolute;
+top: 50%;
+margin-top: -8px;
+}
+.tn-action .tn-icon {
+cursor: pointer;
+}
+
+.tn-icon, .tn-icon {
+left: 0;
+}
+.tn-icon, .tn-icon {
+margin-top: -7px;
+}
+.tn-icon {
+width: 16px;
+height: 16px;
+background-image: url("../images/it-icon.png");
+}
+.ui-icon, .tn-icon, .tn-icon-small, .tn-icon-big, .tn-icon-large, .tn-icon-special, .tn-icon-colorful {
+display: block;
+text-indent: -99999px;
+overflow: hidden;
+background-repeat: no-repeat;
+}
+.tn-action-text, .tn-icon-text {
+padding-left: 20px;
+}
+.tn-action-text-icon, .tn-action-text-icon-right, .tn-explain-icon, .tn-explain-icon-right {
+position: relative;
+}
+.tn-auto {
+width: 54%;
+}
+
+.it-myresume-wrapper .tn-instructions {
+padding-bottom: 20px;
+}
+.tn-text-note {
+color: #999;
+}
+.tn-action {
+color: #6d1f75;
+float: right;
+font-size: 14px;
+}
+.tn-progress-text {
+padding: 0 3px 3px 1px;
+}
+
+
+
+.it-aside {
+float: left;
+/*position: relative;*/
+padding: 30px 18px;
+width: 260px;
+}
+
+.tn-button {
+margin: 0 0 8px 50px;
+}
+.resume_main {
+background-color: white;
+display: block;
+zoom: 1;
+width: 1000px;
+margin: 15px auto 15px;
+}
+
+
+
+
+.tn-instructions {
+padding: 10px 0;
+}.tn-border-gray {
+border: solid #ddd 1px;
+}.tn-border-bottom {
+border-width: 0 0 1px;
+}.tn-border-gray {
+border-color: #ddd;
+}
+.it-myresume-wrapper .tn-instructions {
+padding-bottom: 20px;
+}
+
+.tn-action {
+color: #6d1f75;
+float: right;
+font-size: 14px;
+}
+
+.tn-widget-content {
+width: 250px;
+border: #d2d2d2 solid 1px;
+height: 6px;
+box-shadow: none;
+margin: 0;
+}
+.tn-progress-bar-value {
+height: 100%;
+margin: -1px;
+font-size: 0;
+}
+.tn-border-tbl {
+border-width: 1px 0 1px 1px;
+}
+.tn-widget-header, .ui-widget-header {
+border: 1px solid #cce0ec;
+background: url("../images/bg-pipe-eff5f8.png") repeat-x 0 50%;
+}
+.tn-corner-all {
+	border-radius: 21px;
+	background-color: #FFF;
+}
+.tn-widget-header {
+background-color: #6d1f75;
+box-shadow: none;
+}
+.it-editdata-list {
+padding: 20px 0 10px 5px;
+}.tn-editdata-bg {
+background: url("../images/it-button.png") no-repeat 0 -466px;
+width: 250px;
+height: 31px;
+margin-bottom: 1px;
+_padding-top: 2px;
+}
+a.tn-button-text {
+float: left;
+padding-left: 45px;
+color: #666;
+font-size: 13px;
+line-height: 30px;
+}
+.tn-icon {
+width: 16px;
+height: 16px;
+background-image: url("../images/tn-icon-small.png");
+}
+.tn-icon {
+background-image: url("../images/it-icon.png");
+}
+.it-icon-accept {
+background-position: -102px -66px;
+}
+.tn-icon {
+float: right;
+margin: 7px 30px 7px 5px;
+display: inline;
+}
+.it-list-aid {
+padding: 5px 0 0 55px;
+}
+.tn-action, .tn-explain-icon {
+margin: 0 5px 0 0;
+display: inline-block;
+float: none;
+}
+/*保存 取消*/
+.save1{ background:url(../images/user_btn2.png); width:93px; height:37px; color:#fff; line-height:37px; font-weight:bold; text-align:center;border:none;}
+.save1 a{color:#fff; line-height:33px; font-weight:bold; text-align:center}
+.cancel2{ background:url(../images/user_btn1.png); width:93px; height:37px; color:#666; line-height:37px;font-weight:bold; text-align:center;border:none;}
+.cancel2 a{olor:#666; line-height:33px;font-weight:bold;  text-align:center}

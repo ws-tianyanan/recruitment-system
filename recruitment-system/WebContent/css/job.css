@@ -1,0 +1,143 @@
+@charset "utf-8";
+h1{font-size:138.5%}
+h3{font-size:108%}
+table{font:100%;border-collapse:collapse;border-spacing:0}
+a{text-decoration:none}
+a.tn-invert-text:hover{color:#fff;background:#005a8c;text-decoration:none}
+a.tn-msg-bubble-fix:hover{text-decoration:none}
+.tn-tabs .tn-tabs-nav li.tn-helper-right a:hover,.ui-tabs .ui-tabs-nav li.tn-helper-right a:hover{text-decoration:underline}
+UNUSEDUNUSEDUNUSED.tn-action,.tn-explain-icon{margin:0 5px 0 0;display:inline-block;position:relative}
+UNUSEDUNUSEDUNUSED.tn-action .tn-action-text,.tn-explain-icon .tn-icon-text{padding:2px 0}
+.tn-comment-text-area:focus{outline:0}
+.tn-list-header .tn-selected:hover{text-decoration:none;cursor:default}
+.tn-photo-viewer a:hover{color:#00eeef;text-decoration:none}
+ul.as-selections li.as-selection-item a:hover.as-close{text-decoration:none}
+.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}
+.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}
+.tn-drop-menu li.tn-hover a.tn-item-link:hover{text-decoration:none}
+a#closeBut:hover{background-position:-128px -16px}
+.tn-return-to-top a:hover{text-decoration:none}
+.uploadify:hover .uploadify-button{background:url(../images/bg-gradient-0065a2.png) repeat-x 0 center}
+.sliderkit a:focus{outline:1px dotted #000}
+.photoslider-1click .sliderkit-nav-clip ul a:hover{color:#fff}
+.photosgallery-std .sliderkit-btn-disable a:hover{cursor:default}
+.sliderkit-nav .sliderkit-btn a:hover{background:url(/Content/Styles/icons/blue/tn-icon-small.png)}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-prev a:focus,.photosgallery-std .sliderkit-nav .sliderkit-nav-prev a:hover{background-position:-126px center}
+.photosgallery-std .sliderkit-nav .sliderkit-nav-next a:focus,.photosgallery-std .sliderkit-nav .sliderkit-nav-next a:hover{background-position:-145px center}
+.it-jobsort .tn-directory-level .tn-selected a:hover{text-decoration:none;color:#6d1f75}
+.it-myresume-wrapper .it-aside .tn-button-preview:hover{color:#cefbff}
+.it-myresume-wrapper .it-editdata-list a.tn-button-text:hover{color:#6d1f75}
+a.tn-instant-note:hover{background:#fcfce1;color:#cfa846}
+.tn-button-default:hover{background:#dceaf2;border-color:#cce0ec;box-shadow:0 1px 0 #fff inset}
+.tn-button-primary:hover{border-color:#004570;box-shadow:0 1px 0 #65a3c9 inset}
+.tn-button-secondary{background:#eee;border-color:#ddd;box-shadow:0 1px 0 #fff inset}
+.tn-button-secondary:hover{background:#e8e8e8;border-color:#ddd;box-shadow:0 1px 0 #fff inset}
+.tn-button-secondary .tn-button-text,.tn-button-secondary:hover .tn-button-text{font-weight:400;color:#999}
+.tn-button-hollow:hover,.tn-button-lite:hover{box-shadow:none}
+.tn-icon{width:16px;height:16px}
+a.tn-icon-big:hover{background-image:url(/Content/Styles/Icons/50gray/tn-icon-big.png)}
+a.tn-icon-special:hover{background-image:url(/Content/Styles/Icons/50gray/tn-icon-special.png)}
+.tn-bg-deep .tn-icon:hover{background-image:url(/Content/Styles/icons/25gray/tn-icon-small.png)}
+.tn-praise .tn-icon:hover,.tn-thumb-rate .tn-icon-thumb-down:hover,.tn-thumb-rate .tn-icon-thumb-up:hover{background-position:0 -20px}
+.tn-pagination a:hover{border-color:#0065a2;background:#f2f7fa;text-decoration:none}
+body{font:12px/1.231 Tahoma,Arial,Helvetica,sans-serif;color:#666;line-height:22px;letter-spacing:.3px}
+UNUSEDUNUSED.tn-action .tn-icon,.tn-explain-icon .tn-icon{margin-top:-7px}
+.tn-widget-content{border:0;background:0;border-radius:0}
+UNUSEDUNUSEDUNUSED.tn-action-text-icon .tn-action-text,.tn-explain-icon .tn-icon-text{padding-left:20px}
+UNUSEDUNUSEDUNUSEDh1,UNUSEDUNUSEDUNUSEDh2,h3{margin:0}
+a{color:#6d1f75}
+a:hover{color:#6d1f75;text-decoration:none}
+.it-font-cor{color:#6d1f75}
+.tn-button{background:url(../images/it-button.png) no-repeat;box-shadow:none;border:0;font-size:12px}
+.tn-button:hover{background:url(../images/it-button.png) no-repeat;box-shadow:none;border:0}
+.tn-button-primary:hover{background:url(../images/it-button.png) no-repeat -205px -65px;width:146px}
+.tn-button-secondary{display:inline-block;padding:0;margin-right:5px;text-decoration:none!important;cursor:pointer;text-align:center;zoom:1;overflow:visible;background:url(../images/it-button.png) no-repeat;box-shadow:none;border:0;font-size:12px;background-position:-205px -281px;width:146px;height:35px}
+.tn-button-secondary:hover{background:url(../images/it-button.png) no-repeat;box-shadow:none;border:0;background-position:-205px -326px;width:146px;height:35px}
+UNUSEDUNUSEDUNUSED.tn-button-text-icon-primary .tn-button-text,.tn-button-text{color:#751f98;line-height:30px;_line-height:33px;font-size:15px}
+.tn-button-register:hover{background-position:-115px -60px;width:92px;height:40px}
+.tn-button-login:hover{background-position:-6px -60px;width:92px;height:40px}
+a.tn-button.tn-button-home-apply:hover .tn-button-text{color:#FF0}
+a.tn-button.tn-button-home-apply.it-button-hover:hover .tn-button-text{color:#fff}
+a.it-weibo:hover{background-position:0 -775px;width:184px;height:49px}
+a.it-QQ:hover{background-position:0 -240px;width:184px;height:49px}
+a.it-renren:hover{background-position:0 -890px;width:184px;height:49px}
+a.it-weibo-gray:hover{background-position:0 -185px;width:184px;height:49px}
+a.it-QQ-gray:hover{background-position:0 -830px;width:184px;height:49px}
+a.it-renren-gray:hover{background-position:0 -300px;width:184px;height:49px}
+UNUSEDUNUSEDUNUSED.it-button-apply,.it-button-apply:hover{width:208px;height:67px;background:url(../images/it-button.png) no-repeat;box-shadow:none;border:0;font-size:12px;display:inline-block;padding:0;margin-right:5px;text-decoration:none!important;cursor:pointer;text-align:center;zoom:1;overflow:visible;background-position:-3px -395px}
+.it-button-hover:hover .tn-button-text{color:#666}
+.tn-icon,a.tn-icon:hover{background-image:url(../images/it-icon.png)}
+.it-icon-time{background-position:-123px -43px}
+.it-icon-people{background-position:-144px -43px}
+.it-header .tn-drop-menu li .tn-sub-container.tn-single li a:hover{color:#6d1f75;text-decoration:none;background-color:#f7f7f7}
+.tn-box-content{background-image:url(../images/it-bg-line.png);background-repeat:repeat-y;display:block;zoom:1;width:1000px;margin:0 auto 15px}
+/* .it-main{float:left;width:660px;padding:20px} */
+.it-main{float:left;width:960px;padding:20px;background:#fff;}
+.it-title-line{background-image:url(../images/it-line03.png)}
+.it-comjoin-btn a:hover{color:#FF0;text-decoration:none}
+.it-ctn-heading h3{font:18px "Microsoft Yahei";background-color:#FFF;padding-right:10px;display:inline}
+.it-ctn-heading{background:url(../images/it-title-line.png) repeat-x left bottom;padding-bottom:10px}
+.it-ctn-heading span{float:right;background-color:#FFF;padding-left:10px;display:inline;line-height:25px}
+.it-com-apply{padding-left:40px;margin-top:-4px;position:absolute}
+.it-text-part{margin-bottom:20px;width:150px;color:#999}
+.it-icon-time{position:absolute;left:0;margin-top:4px;display:block;text-indent:-99999px;overflow:hidden;background:url("../images/it-icon.png") no-repeat -123px -43px;width:16px;height:16px}
+.it-icon-people{position:absolute;left:0;margin-top:4px;display:block;text-indent:-99999px;overflow:hidden;background:url("../images/it-icon.png") no-repeat -144px -43px;width:16px;height:16px}
+.it-text-part li{padding:5px 0;position:relative;border-bottom:1px dotted #ddd}
+.it-main{padding-top:15px}
+UNUSEDUNUSEDUNUSED.it-arrow-bottom,UNUSEDUNUSEDUNUSED.it-arrow-top{padding:10px 0 10px 140px;display:block;clear:both;background-image:url(../images/it-bgline.png)}
+.it-page-results .tn-pagination a.tn-page-number:hover{color:#6d1f75;background:0}
+.it-status-personal .tn-button .tn-button-text:hover{color:#cefbff}
+.it-home-present .it-quiet-btn a.it-success-case:hover{background:url(../images/it-button.png) no-repeat;background-position:-205px -326px}
+.it-home-present .it-quiet-btn a.it-share:hover{background:url(../images/it-button.png) no-repeat;background-position:-291px -326px}
+.it-home-recruiters .it-comlogo-list li:hover{border:1px solid #6d1f75}
+.sliderkit .sliderkit-go-prev a:hover{background-image:url(../images/it-sliderki-btn.png);background-position:0 -39px;height:33px;width:33px;display:inline-block;outline:0}
+.sliderkit .sliderkit-go-next a:hover{background-image:url(../images/it-sliderki-btn.png);background-position:-40px -39px;height:33px;width:33px;display:inline-block;outline:0}
+.photoslider-1click .sliderkit-nav-clip ul a:hover,UNUSEDUNUSEDUNUSED.photoslider-1click .sliderkit-nav-clip ul li a{background:url(../images/it-img.png) no-repeat -745px -261px;width:9px;height:9px;padding:0;line-height:40px}
+.it-map p a:hover{background:#f1f1f1 url(../images/it-mapicon.png) no-repeat 10px center}
+.rp-upload-avatar .uploadify:hover .uploadify-button{background-color:#1aa9b7;border:#109aa8 solid 1px}
+body{_margin:0;_height:100%}
+.aui_close:hover{text-decoration:none}
+.aui_buttons button:focus{outline:0;border-color:#426dc9;box-shadow:0 0 8px rgba(66,109,201,.9)}
+.aui_buttons button:hover{color:#000;border-color:#666}
+.aui_buttons button[disabled]{cursor:default;color:#666;background:#DDD;border:solid 1px #999;filter:alpha(opacity=50);opacity:.5;box-shadow:none}
+button.aui_state_highlight:hover{color:#FFF;border-color:#0f3a56}
+UNUSEDUNUSEDUNUSED.aui_inner,UNUSEDUNUSEDUNUSED.aui_outer{border:1px solid rgba(0,0,0,.7)}
+UNUSEDUNUSEDUNUSED.aui_ne,UNUSEDUNUSEDUNUSED.aui_nw,UNUSEDUNUSEDUNUSED.aui_se,UNUSEDUNUSEDUNUSED.aui_sw{width:8px;height:8px}
+UNUSEDUNUSEDUNUSED.aui_e,UNUSEDUNUSEDUNUSED.aui_n,UNUSEDUNUSED.aui_ne,UNUSEDUNUSED.aui_nw,UNUSEDUNUSEDUNUSED.aui_s,UNUSEDUNUSED.aui_se,UNUSEDUNUSED.aui_sw,UNUSEDUNUSEDUNUSED.aui_w{background:rgba(0,0,0,.4);filter:alpha(opacity=40)}
+.aui_close:hover{color:#c72015}
+.syntaxhighlighter .toolbar a:hover{color:red!important}
+#fancybox-left:hover,#fancybox-right:hover{visibility:visible}
+#fancybox-left:hover span{left:20px}
+#fancybox-right:hover span{left:auto;right:20px}
+.it-com-keyimg{background:url("../images/it-keyimg-bg.png") no-repeat center bottom;overflow:hidden;padding-bottom:29px;margin-bottom:3px;text-align:center}
+.it-content-slideshow .it-slide-smallimg .tn-photo-wrap:hover,UNUSEDUNUSEDUNUSEDUNUSED.it-content-slideshow .it-slide-smallimg .it-img-hover{background:url("../images/it-img-box-hover.png") no-repeat;height:109px;width:108px;float:left}
+.clear{clear:both}
+.tn-text-note{padding:0 0 10px 12px;color:#999}
+.app_btn:hover{background-position:-205px -326px}
+.it-hover-text{width:130px}
+.it-ctn-heading h3{color:#6d1f75}
+.job{position:relative}
+.job .it-table{margin:12px 20px 0 4px;float:left;border:solid #ddd 1px}
+.job .it-table td{padding:5px 0 5px 8px;border-right:solid #ddd 1px;border-bottom:solid #ddd 1px}
+.job .it-table-title{width:87px;text-align:center;color:#999;border-color:#ddd}
+.job .tn-border-rb{width:122px;text-align:left;padding:5px 0 5px 8px}
+.job .it-post-count{float:right;padding-right:0}
+.job .tn-button{background:url("../images/it-button.png") no-repeat -224px -540px;box-shadow:none;font-size:12px;width:168px;height:56px;position:absolute;top:-3px;left:0}
+.jobli{padding:5px 0;position:relative;border-bottom:1px dotted #ddd}
+.job .it-text-part{margin:50px 0 0 0;width:165px}
+.job .tn-icon{margin-top:5px}
+.job .it-post-text{margin:20px 20px 0 5px;padding-bottom:20px;line-height:24px;border-bottom:1px solid #ddd}
+.job .it-requirements-title{background:url("../images/it-claim-title.png") repeat-x left bottom transparent;padding-bottom:10px;margin:20px 0 0 5px}
+.job .it-requirements-title h3{font-size:14px}
+/* .job .btn_bot{padding:20px 0 0 180px} */
+.job .btn_bot{padding:20px 0 0 360px}
+.job .tn-button2{background:url("../images/it-button.png") no-repeat -224px -396px;box-shadow:none;font-size:12px;width:168px;height:56px;position:absolute;top:-3px;left:0}
+.job_right{padding:25px 25px 25px 30px;width:245px;float:left}
+.job_right .it-listbox{margin-bottom:30px}
+.it-listbox .it-listbox-header{background:url("../images/it-listbox-title.png") repeat-x left bottom transparent;padding-bottom:10px}
+.it-listbox .tn-option{float:right}
+.it-listbox .tn-helper-reset{line-height:20px;font-size:14px}
+.it-listbox a{color:#666}
+.it-listbox a:hover{color:#6d1f75;text-decoration:none}
+.it-listbox .it-listbox-content li{padding:4px 0;border-bottom:solid #ddd 1px}
+.it-listbox .it-listbox-content .tn-icon{float:left;margin:5px 3px 0 0;background-position:-224px 0}

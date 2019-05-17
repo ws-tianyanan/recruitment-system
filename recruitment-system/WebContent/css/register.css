@@ -1,0 +1,161 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*登录&注册样式*/
+.page_name{ background:url(../images/page_name.png); width:1000px; height:43px; margin:0 auto; margin-top:10px; font-size:22px; color:#6d1f75;padding-top:7px;  text-indent:30px;}
+
+.login_content{ width:960px; background:#fff; margin:15px auto;padding:20px; font-family:宋体}
+.font14{
+    font-size: 14px;
+    margin-bottom: 20px;font-family:”宋体“}
+.tn-form-label {
+    background: url(../images/it-line03.png);
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 32px;
+    padding: 0 0 0 5px;
+    text-align: center;
+    width: 80px;
+
+}
+.tn-textbox {
+    background: url(../images/it-input.png) no-repeat top left;
+    border: 0 none;
+    color: #999;
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+    width: 273px;
+	
+}
+.login_l{padding-left:50px; background:url(../images/it-line05.png) repeat-y right top;width:500px;}
+.login_r{float:right;width:300px;margin-top:-260px; font-size:14px;}
+.login_r p,.register_r p{margin-bottom:10px;}
+.register_r{float:right;width:380px;margin-top:-350px;font-size:14px;}
+.span1{float:left;margin:15px 0px;}
+.tn-form-row-button {
+    border-top: 1px dashed #ddd;
+    padding: 10px 0 0 120px;
+    text-align: center;
+	margin-top:30px;width:380px;
+	clear:both;
+}
+.tn-button-text{background: url(../images/it-button.png) no-repeat -205px -9px;
+	width:145px;height:43px;
+font-size: 16px;
+line-height:43px;
+	font-weight: bold;
+	display:inline-block;
+	padding: 0 10px;
+	color:white;
+	border:none;text-align:center}
+.tn-button-text:hover{background: url(../images/it-button.png) no-repeat -205px -64px;
+}
+.it-weibo,.it-QQ,.it-renren,.it-QQ-gray,it-QQ-gray:hover.it-weibo:hover,.it-QQ:hover,.it-renren:hover{background: url(../images/it-button.png) no-repeat; display:inline-block;}
+.it-weibo {
+	background-position: 0 -595px;
+	width: 184px;
+	height: 49px
+}
+.it-QQ {
+	background-position: 0 -60px;
+	width: 184px;
+	height: 49px
+}
+.it-renren {
+	background-position: 0 -710px;
+	width: 184px;
+	height: 49px
+}
+a.it-weibo:hover {
+	background-position: 0 -775px;
+	width: 184px;
+	height: 49px
+}
+a.it-QQ:hover {
+	background-position: 0 -240px;
+	width: 184px;
+	height: 49px
+}
+a.it-renren:hover {
+	background-position: 0 -890px;
+	width: 184px;
+	height: 49px
+}
+.it-weibo-gray {
+	background-position: 0 -5px;
+	width: 184px;
+	height: 49px
+}
+.it-QQ-gray {
+	background-position: 0 -650px;
+	width: 184px;
+	height: 49px
+}
+.it-renren-gray {
+	background-position: 0 -120px;
+	width: 184px;
+	height: 49px
+}
+a.it-weibo-gray:hover {
+	background-position: 0 -185px;
+	width: 184px;
+	height: 49px
+}
+a.it-QQ-gray:hover {
+	background-position: 0 -830px;
+	width: 184px;
+	height: 49px
+}
+a.it-renren-gray:hover {
+	background-position: 0 -300px;
+	width: 184px;
+	height: 49px
+}
+.it-register-text {
+    font-size: 14px;
+    padding-top: 10px;
+}
+.tn-textbox-long {
+	background: url(../images/it-input.png) no-repeat left -44px;
+    width: 126px;
+	border: 0 none;
+    color: #999;
+    float: left;
+    font-size: 14px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+	
+}
+/* 服务条款弹出层样式*/
+#bg {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index: 1001;
+	-moz-opacity: 0.7;
+	opacity: .70;
+	filter: alpha(opacity = 70);
+}
+#show {
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 22%;
+	width: 53%;
+	height: 49%;
+	padding: 8px;
+	border: 8px solid #E8E9F7;
+	background-color: white;
+	z-index: 1002;
+	overflow: auto;
+	font-family: Microsoft YaHei
+}
